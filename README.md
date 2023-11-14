@@ -14,6 +14,13 @@ git clone https://github.com/blackfeeather/ue19_labo09-10.git
 cd ue19_labo09-10
 pip install -r requirements.txt
 ```
+# Installation après téléchargement
+Si vous avez téléchargé `source.zip`, extrayez le contenu, puis dans un terminal :
+
+```bash
+cd chemin/vers/ue19_labo09-10
+pip install -r requirements.txt
+```
 
 # Utilisation
 
