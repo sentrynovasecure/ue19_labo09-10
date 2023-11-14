@@ -15,15 +15,15 @@ cd ue19_labo09-10
 pip install -r requirements.txt
 ```
 
-## Utilisation
+# Utilisation
 
-# Exécutez 
-```
+## Exécutez 
+```Bash
 python app.py
 ```
 Pour lancer l'application.
 
-Docker
+## Docker
 Construisez et exécutez avec Docker :
 
 ```Bash
