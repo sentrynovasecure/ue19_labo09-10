@@ -15,9 +15,13 @@ cd ue19_labo09-10
 pip install -r requirements.txt
 ```
 
-Utilisation
+## Utilisation
 
-Exécutez python app.py pour lancer l'application.
+# Exécutez 
+```
+python app.py
+```
+Pour lancer l'application.
 
 Docker
 Construisez et exécutez avec Docker :
@@ -28,7 +32,8 @@ docker run ue19_labo09-10
 ```
 
 
-Merci
+# Merci
+
 Nel
 
 
