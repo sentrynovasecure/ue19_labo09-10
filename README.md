@@ -1,7 +1,7 @@
 # PunAPI Application
 
 ## Description
-Ce projet est une application Python qui utilise l'API PunAPI pour récupérer et afficher des jeux de mots aléatoires et des memes de jeux de mots.
+Ce projet est une application Python qui utilise l'API PunAPI pour récupérer et afficher des jeux de mots aléatoires de jeux de mots.
 
 ## Prérequis
 - Python (3.12.0) ou version ultérieure
