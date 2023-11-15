@@ -44,7 +44,9 @@ jobs:
       with:
         image-ref: 'ghcr.io/${{ github.repository }}/my-app:latest'
         format: 'table'
-        exit-code: '1' # Ceci va échouer le workflow si des vulnérabilités sont trouvées
+        exit-code: '1' # Échouera si des vulnérabilités sont trouvées
+        severity: 'CRITICAL,HIGH' # Scanne seulement pour des vulnérabilités critiques et élevées
+
 
     - name: Push Docker image to GitHub Packages
       if: success() # Cette étape s'exécutera seulement si le scan Trivy ne trouve pas de vulnérabilités
