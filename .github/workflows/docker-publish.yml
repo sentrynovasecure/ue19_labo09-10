@@ -27,7 +27,11 @@ jobs:
         uses: docker/metadata-action@v1
         with:
           images: |
-            ghcr.io/blackfeeather/ue19_labo09-10/releases/tag/v1.0.0
+            ghcr.io/${{ github.repository }}/my-app
+          tags: |
+            type=semver,pattern={{version}}
+            type=ref,event=tag
+            latest=true
       
       - name: Build and push Docker image
         uses: docker/build-push-action@v2
